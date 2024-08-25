@@ -1,7 +1,3 @@
-﻿os
-json
-random
-string
 telebot
 telegraph
 flask
