@@ -5,7 +5,7 @@ import string
 from telebot import TeleBot, types
 from telegraph import Telegraph
 
-token = "TOKEN"
+token = os.environ.get('token')
 bot = TeleBot(token)
 channel_id = '-1002174723157'  
 
