@@ -4,6 +4,8 @@ import random
 import string
 from telebot import TeleBot, types
 from telegraph import Telegraph
+from keep_alive import keep_alive
+keep_alive()
 
 token = os.environ.get('token')
 bot = TeleBot(token)
